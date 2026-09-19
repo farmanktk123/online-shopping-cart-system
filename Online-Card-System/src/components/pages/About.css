@@ -1,0 +1,361 @@
+/* ================================
+   ABOUT PAGE
+================================ */
+
+.about-page {
+    width: 100%;
+    min-height: 100vh;
+    background: #f8fafc;
+  }
+  
+  
+  /* ================================
+     HERO
+  ================================ */
+  
+  .about-hero {
+    min-height: 330px;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    text-align: center;
+  
+    padding: 60px 20px;
+  
+    background:
+      linear-gradient(
+        rgba(15, 23, 42, 0.85),
+        rgba(15, 23, 42, 0.85)
+      ),
+      url("https://images.unsplash.com/photo-1556742049-0cfed4f6a45d");
+  
+    background-size: cover;
+    background-position: center;
+  }
+  
+  
+  .about-hero-content {
+    max-width: 800px;
+  }
+  
+  
+  .about-hero h1 {
+    color: white;
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  
+  .about-hero h1 span {
+    color: #38bdf8;
+  }
+  
+  
+  .about-hero p {
+    color: #e2e8f0;
+    font-size: 18px;
+    line-height: 1.8;
+  }
+  
+  
+  /* ================================
+     ABOUT CONTAINER
+  ================================ */
+  
+  .about-container {
+    max-width: 1200px;
+  
+    margin: 80px auto;
+  
+    padding: 0 30px;
+  
+    display: grid;
+  
+    grid-template-columns: 1fr 1fr;
+  
+    gap: 60px;
+  
+    align-items: center;
+  }
+  
+  
+  .about-image img {
+    width: 100%;
+  
+    height: 400px;
+  
+    object-fit: cover;
+  
+    border-radius: 20px;
+  
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  }
+  
+  
+  .about-content h2 {
+    font-size: 36px;
+  
+    color: #0f172a;
+  
+    margin-bottom: 20px;
+  }
+  
+  
+  .about-content p {
+    color: #64748b;
+  
+    line-height: 1.8;
+  
+    font-size: 16px;
+  
+    margin-bottom: 15px;
+  }
+  
+  
+  .about-btn {
+    margin-top: 15px;
+  
+    padding: 13px 25px;
+  
+    border: none;
+  
+    border-radius: 8px;
+  
+    background: #2563eb;
+  
+    color: white;
+  
+    font-size: 16px;
+  
+    cursor: pointer;
+  
+    transition: 0.3s;
+  }
+  
+  
+  .about-btn:hover {
+    background: #1d4ed8;
+  
+    transform: translateY(-2px);
+  }
+  
+  
+  /* ================================
+     FEATURES
+  ================================ */
+  
+  .features-section {
+    background: white;
+  
+    padding: 80px 30px;
+  
+    text-align: center;
+  }
+  
+  
+  .features-section h2 {
+    font-size: 36px;
+  
+    color: #0f172a;
+  
+    margin-bottom: 10px;
+  }
+  
+  
+  .features-subtitle {
+    color: #64748b;
+  
+    margin-bottom: 45px;
+  }
+  
+  
+  .features-grid {
+    max-width: 1200px;
+  
+    margin: auto;
+  
+    display: grid;
+  
+    grid-template-columns:
+      repeat(4, 1fr);
+  
+    gap: 25px;
+  }
+  
+  
+  .feature-card {
+    padding: 30px 20px;
+  
+    border-radius: 15px;
+  
+    background: #f8fafc;
+  
+    border: 1px solid #e2e8f0;
+  
+    transition: 0.3s;
+  }
+  
+  
+  .feature-card:hover {
+    transform: translateY(-8px);
+  
+    box-shadow:
+      0 10px 25px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+  .feature-icon {
+    font-size: 40px;
+  
+    margin-bottom: 15px;
+  }
+  
+  
+  .feature-card h3 {
+    color: #0f172a;
+  
+    margin-bottom: 12px;
+  }
+  
+  
+  .feature-card p {
+    color: #64748b;
+  
+    line-height: 1.6;
+  }
+  
+  
+  /* ================================
+     STATS
+  ================================ */
+  
+  .about-stats {
+    max-width: 1200px;
+  
+    margin: 80px auto;
+  
+    padding: 0 30px;
+  
+    display: grid;
+  
+    grid-template-columns:
+      repeat(4, 1fr);
+  
+    gap: 25px;
+  }
+  
+  
+  .stat-card {
+    text-align: center;
+  
+    padding: 30px;
+  
+    background: white;
+  
+    border-radius: 15px;
+  
+    box-shadow:
+      0 5px 20px rgba(0, 0, 0, 0.08);
+  }
+  
+  
+  .stat-card h2 {
+    font-size: 35px;
+  
+    color: #2563eb;
+  
+    margin-bottom: 8px;
+  }
+  
+  
+  .stat-card p {
+    color: #64748b;
+  
+    font-size: 16px;
+  }
+  
+  
+  /* ================================
+     MISSION
+  ================================ */
+  
+  .mission-section {
+    text-align: center;
+  
+    padding: 70px 30px;
+  
+    background: #0f172a;
+  
+    color: white;
+  }
+  
+  
+  .mission-section h2 {
+    font-size: 36px;
+  
+    margin-bottom: 20px;
+  }
+  
+  
+  .mission-section p {
+    max-width: 800px;
+  
+    margin: auto;
+  
+    color: #cbd5e1;
+  
+    line-height: 1.8;
+  
+    font-size: 17px;
+  }
+  
+  
+  /* ================================
+     RESPONSIVE
+  ================================ */
+  
+  @media (max-width: 900px) {
+  
+    .about-container {
+      grid-template-columns: 1fr;
+    }
+  
+  
+    .features-grid {
+      grid-template-columns:
+        repeat(2, 1fr);
+    }
+  
+  
+    .about-stats {
+      grid-template-columns:
+        repeat(2, 1fr);
+    }
+  
+  }
+  
+  
+  @media (max-width: 600px) {
+  
+    .about-hero h1 {
+      font-size: 35px;
+    }
+  
+  
+    .features-grid {
+      grid-template-columns: 1fr;
+    }
+  
+  
+    .about-stats {
+      grid-template-columns: 1fr;
+    }
+  
+  
+    .about-container {
+      margin: 50px auto;
+    }
+  
+  }

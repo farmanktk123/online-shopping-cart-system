@@ -1,0 +1,428 @@
+/* =========================================
+   CONTACT PAGE
+========================================= */
+
+.contact-page {
+    width: 100%;
+    min-height: 100vh;
+    background: #f8fafc;
+  }
+  
+  
+  /* =========================================
+     HERO
+  ========================================= */
+  
+  .contact-hero {
+  
+    min-height: 300px;
+  
+    display: flex;
+  
+    justify-content: center;
+  
+    align-items: center;
+  
+    text-align: center;
+  
+    padding: 50px 20px;
+  
+    background:
+      linear-gradient(
+        rgba(15, 23, 42, 0.85),
+        rgba(15, 23, 42, 0.85)
+      ),
+      url("https://images.unsplash.com/photo-1556742049-0cfed4f6a45d");
+  
+    background-size: cover;
+  
+    background-position: center;
+  }
+  
+  
+  .contact-hero-content {
+    max-width: 750px;
+  }
+  
+  
+  .contact-hero h1 {
+  
+    color: white;
+  
+    font-size: 48px;
+  
+    margin-bottom: 15px;
+  }
+  
+  
+  .contact-hero h1 span {
+    color: #38bdf8;
+  }
+  
+  
+  .contact-hero p {
+  
+    color: #cbd5e1;
+  
+    font-size: 18px;
+  
+    line-height: 1.7;
+  }
+  
+  
+  /* =========================================
+     SUCCESS MESSAGE
+  ========================================= */
+  
+  .contact-success {
+  
+    width: fit-content;
+  
+    margin: 25px auto;
+  
+    padding: 15px 25px;
+  
+    background: #16a34a;
+  
+    color: white;
+  
+    border-radius: 8px;
+  
+    font-weight: 600;
+  
+    box-shadow:
+      0 5px 20px rgba(0, 0, 0, 0.15);
+  
+  }
+  
+  
+  /* =========================================
+     MAIN CONTACT
+  ========================================= */
+  
+  .contact-container {
+  
+    max-width: 1200px;
+  
+    margin: 70px auto;
+  
+    padding: 0 30px;
+  
+    display: grid;
+  
+    grid-template-columns: 1fr 1.2fr;
+  
+    gap: 60px;
+  
+    align-items: start;
+  }
+  
+  
+  /* =========================================
+     CONTACT INFO
+  ========================================= */
+  
+  .contact-info {
+  
+    background: white;
+  
+    padding: 40px;
+  
+    border-radius: 15px;
+  
+    box-shadow:
+      0 5px 25px rgba(0, 0, 0, 0.08);
+  }
+  
+  
+  .contact-info h2 {
+  
+    font-size: 32px;
+  
+    color: #0f172a;
+  
+    margin-bottom: 15px;
+  }
+  
+  
+  .contact-info > p {
+  
+    color: #64748b;
+  
+    line-height: 1.7;
+  
+    margin-bottom: 35px;
+  }
+  
+  
+  /* =========================================
+     CONTACT ITEM
+  ========================================= */
+  
+  .contact-item {
+  
+    display: flex;
+  
+    align-items: flex-start;
+  
+    gap: 18px;
+  
+    margin-bottom: 28px;
+  }
+  
+  
+  .contact-icon {
+  
+    min-width: 50px;
+  
+    height: 50px;
+  
+    display: flex;
+  
+    align-items: center;
+  
+    justify-content: center;
+  
+    border-radius: 10px;
+  
+    background: #eff6ff;
+  
+    font-size: 23px;
+  }
+  
+  
+  .contact-item h3 {
+  
+    margin: 0 0 5px;
+  
+    color: #0f172a;
+  
+    font-size: 17px;
+  }
+  
+  
+  .contact-item p {
+  
+    margin: 0;
+  
+    color: #64748b;
+  
+    line-height: 1.6;
+  }
+  
+  
+  /* =========================================
+     CONTACT FORM
+  ========================================= */
+  
+  .contact-form-container {
+  
+    background: white;
+  
+    padding: 40px;
+  
+    border-radius: 15px;
+  
+    box-shadow:
+      0 5px 25px rgba(0, 0, 0, 0.08);
+  }
+  
+  
+  .contact-form-container h2 {
+  
+    color: #0f172a;
+  
+    font-size: 32px;
+  
+    margin-bottom: 30px;
+  }
+  
+  
+  .form-group {
+  
+    margin-bottom: 20px;
+  }
+  
+  
+  .form-group label {
+  
+    display: block;
+  
+    color: #334155;
+  
+    font-weight: 600;
+  
+    margin-bottom: 8px;
+  }
+  
+  
+  .form-group input,
+  .form-group textarea {
+  
+    width: 100%;
+  
+    box-sizing: border-box;
+  
+    padding: 13px 15px;
+  
+    border: 1px solid #cbd5e1;
+  
+    border-radius: 8px;
+  
+    outline: none;
+  
+    font-size: 15px;
+  
+    font-family: inherit;
+  
+    transition: 0.3s;
+  }
+  
+  
+  .form-group input:focus,
+  .form-group textarea:focus {
+  
+    border-color: #2563eb;
+  
+    box-shadow:
+      0 0 0 3px rgba(37, 99, 235, 0.1);
+  }
+  
+  
+  .form-group textarea {
+  
+    resize: vertical;
+  }
+  
+  
+  /* =========================================
+     SUBMIT BUTTON
+  ========================================= */
+  
+  .contact-submit-btn {
+  
+    width: 100%;
+  
+    padding: 14px;
+  
+    border: none;
+  
+    border-radius: 8px;
+  
+    background: #2563eb;
+  
+    color: white;
+  
+    font-size: 16px;
+  
+    font-weight: 600;
+  
+    cursor: pointer;
+  
+    transition: 0.3s;
+  }
+  
+  
+  .contact-submit-btn:hover {
+  
+    background: #1d4ed8;
+  
+    transform: translateY(-2px);
+  }
+  
+  
+  /* =========================================
+     SUPPORT
+  ========================================= */
+  
+  .contact-support {
+  
+    text-align: center;
+  
+    padding: 70px 30px;
+  
+    background: #0f172a;
+  
+    color: white;
+  }
+  
+  
+  .contact-support h2 {
+  
+    font-size: 34px;
+  
+    margin-bottom: 15px;
+  }
+  
+  
+  .contact-support p {
+  
+    max-width: 650px;
+  
+    margin: 0 auto 25px;
+  
+    color: #cbd5e1;
+  
+    line-height: 1.7;
+  }
+  
+  
+  .contact-support button {
+  
+    padding: 13px 25px;
+  
+    border: none;
+  
+    border-radius: 8px;
+  
+    background: #38bdf8;
+  
+    color: #0f172a;
+  
+    font-weight: 600;
+  
+    cursor: pointer;
+  }
+  
+  
+  /* =========================================
+     RESPONSIVE
+  ========================================= */
+  
+  @media (max-width: 900px) {
+  
+    .contact-container {
+  
+      grid-template-columns: 1fr;
+  
+    }
+  
+  }
+  
+  
+  @media (max-width: 600px) {
+  
+    .contact-hero h1 {
+  
+      font-size: 36px;
+  
+    }
+  
+  
+    .contact-container {
+  
+      padding: 0 15px;
+  
+      margin: 40px auto;
+  
+    }
+  
+  
+    .contact-info,
+    .contact-form-container {
+  
+      padding: 25px;
+  
+    }
+  
+  }
